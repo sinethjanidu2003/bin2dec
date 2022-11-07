@@ -5,10 +5,14 @@ function validate(){
 }
 
 function clearform(){
-    window.location.href ="./binary.php";
+    window.location.href ="./index.php";
 }
 
 function clearformdecimal(){
-    window.location.href ="./decimal.php";
+    window.location.href ="./index.php";
+}
+
+function checkValidation(e){
+    console.log(e.value);
 }
 
